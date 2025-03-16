@@ -4,6 +4,8 @@
     --color-tertiary: #C4C4C4;
     --color-button: #fe652b;
     --color-button-hover: #e55720;
+    --color-buttonA: #7bc87f;
+    --color-button-hoverA: #20893e;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -160,3 +162,23 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+/* Botón de reiniciar */
+.button-drawA {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-buttonA);
+    font-size: 16px;
+}
+
+.button-drawA img {
+    margin-right: 40px;
+    width: 35px;
+}
+
+.button-drawA:hover {
+    background-color: var(--color-button-hoverA);
+}
+

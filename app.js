@@ -72,3 +72,10 @@ function sortearAmigo(){
         resultado.innerHTML = "";
     }
 }
+
+function resetearJuego(){
+    listaAmigos = [];
+    document.getElementById("amigo").innerHTML = "";
+    document.getElementById("listaAmigos").innerHTML = "";
+    document.getElementById("resultado").innerHTML = "";
+}
